@@ -7,4 +7,4 @@ fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%2
 download.file(fileURL, file, method = "curl")
 unzip(file)
 
-
+#Data frames
