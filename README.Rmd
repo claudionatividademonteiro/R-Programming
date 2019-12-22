@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Dataset
 
-        Human Activity Recognition Using Smartphones
+        UCI HAR Dataset
 
 Files
 
