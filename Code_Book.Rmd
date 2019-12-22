@@ -1,0 +1,37 @@
+---
+title: "Code_Book"
+author: "Claudio Monteiro"
+date: "21 de dezembro de 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The run_analysis.R script is responsible for data preparation, using the variables:
+
+        Data preparation
+                features: 561 rows, 2 columns
+                activities: 6 rows, 2 columns 
+                subject_train: 7352 rows, 1 column
+                x_train: 7352 rows, 561 columns
+                y_train: 7352 rows, 1 columns
+                subject_test: 2947 rows, 1 column
+                x_test: 2947 rows, 561 columns
+                y_test: 2947 rows, 1 columns
+
+        Merging data sets
+                X_Merg: 10299 rows, 561 columns
+                Y_Merg: 10299 rows, 1 column
+                Subject_Merg: 10299 rows, 1 column
+                Data_Merg: 10299 rows, 563 column
+
+        Extracting the mean and standard deviation 
+                Tidy_data: 10299 rows, 88 columns
+
+        Generating the final data set
+                Second_data_set: 180 rows, 88 columns
+                Final_Set.txt: file that contains the fina data set
+                
+
